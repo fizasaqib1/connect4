@@ -50,6 +50,33 @@ input, select {
     color: #fff;
     font-size: 16px;
 }
+.info-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+
+.popup-content {
+    background-color: #333;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    max-width: 400px;
+}
 
 select {
     cursor: pointer;
@@ -101,6 +128,7 @@ button:hover {
     flex-direction: column;
     gap: 20px;
 }
+
 
 h1 {
     text-align: center;
